@@ -1,0 +1,56 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #E2E2F5;
+    background-image: url(assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    padding: 0 100px;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+.action{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+   
+}
+button{
+    color: #D6D6F2;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-radius: 62.4375rem;
+    background: #151557;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    
+}
+button:hover{
+    background: #212187;
+}
