@@ -49,8 +49,12 @@ button{
     background: #151557;
     padding: 0.75rem 1.5rem;
     cursor: pointer;
-    
+    text-transform: uppercase;
 }
 button:hover{
     background: #212187;
+   
+}
+@media(max-width: 768px){
+   
 }
