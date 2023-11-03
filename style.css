@@ -56,5 +56,26 @@ button:hover{
    
 }
 @media(max-width: 768px){
-   
+   .container{
+    flex-direction: column;
+    width: 100%;
+   }
+   .container .content{
+    padding: 0 40px;
+   }
+   .container .content .text h1{
+    font-size: 24px;
+   }
+   .container .content .text p{
+    font-size: 16px;
+   }
+   .container .content .action button{
+    font-size: 8px;
+   }
+   .container .content .action button{
+    padding: 8px 12px;
+   }
+   .container .image img{
+    width: 300px;
+   }
 }
